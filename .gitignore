@@ -5,6 +5,33 @@ __pycache__/
 
 # C extensions
 *.so
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env                    # Ignore environment variables!
+.env.local
+
+# Environment variables
+.env
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway/Deployment
+railway.json
 
 # Distribution / packaging
 .Python
